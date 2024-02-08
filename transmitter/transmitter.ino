@@ -6,6 +6,7 @@ const uint64_t pipeOut = 0xE8E8F0F0E1LL; //Address should be same as receiver
 
 RF24 radio(10, 9); // CE & CSN pin. (Change according to CE and CSN pin of NRF24L01 to Arduino
 
+struct MyData{
   byte throttle;
   byte yaw;
   byte pitch;
